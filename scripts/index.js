@@ -1,5 +1,5 @@
 //import libraries
-import {world} from @minecraft/server-gametest;
+import {world} from "@minecraft/server-gametest";
 
 //prefix (change to your prefix)
 const prefix = '-c'
