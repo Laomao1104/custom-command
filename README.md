@@ -1,4 +1,4 @@
-[!pack](pack_icon.png)
+[!img](pack_icon.png)
 
 # 自定义命令
 
