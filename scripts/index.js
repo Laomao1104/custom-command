@@ -1,8 +1,5 @@
 //import libraries
-import {
-    world,
-    Player
-} from 'mojang-minecraft';
+import {@minecraft/server-gametest};
 
 //prefix (change to your prefix)
 const prefix = '-c'
