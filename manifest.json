@@ -1,8 +1,8 @@
 {
   "format_version": 2,
   "header": {
-    "description": "change this to yours",
-    "name": "custom command template v1.3",
+    "description": "可以更改代码",
+    "name": "自定义命令",
     "uuid": "cebbcb6d-1155-44a1-b2ee-51aede037e60",
     "version": [
       1,
