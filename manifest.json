@@ -3,7 +3,7 @@
   "header": {
     "description": "可以更改代码",
     "name": "自定义命令",
-    "uuid": "cebbcb6d-1155-44a1-b2ee-51aede037e60",
+    "uuid": "5e241892-02ae-40e7-b9c6-9ae75adf0888",
     "version": [
       1,
       0,
@@ -19,7 +19,7 @@
     {
       "description": "custom command",
       "type": "data",
-      "uuid": "8b133119-1f4f-4b06-a6a2-a3afc77a1425",
+      "uuid": "d92e2060-973b-4426-b2a6-e7f32e37ff09",
       "version": [
         1,
         0,
