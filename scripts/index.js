@@ -7,18 +7,18 @@ const prefix = '-c'
 //your custom commands go here
 function yourCommand(command,arg,text,player){
     const playerName = player.name ?? player.nameTag; //get player name
-    //text = is the whole massage
+    //texttextexttetexttextextt = is the whole massage
     //player = is the player
     //playerName = is player name
     //args = is the word you put after prefix and command
     //example "-c give diamond 64 1" (arg[0] = diamond, arg[1] = 64, arg[2] = 1, and soo on)
     
     switch (command) {
-        case 'hello': //if i type "-c hello" run this
-            runCmdEntity(`tellraw @s { "rawtext": [ { "text": "hi ${playerName}" } ] }`,player);
+        case 'member': //if i type "-c hello" run this
+            runCmdEntity(tellraw @s { "rawtext": [ { "text": "member ${playerName}" } ] }`,player;
             break;
             
-        case 'gm': //if i type "-c gm" check argument
+        case 'gamemode': //if i type "-c gm" check argument
             if(arg[0] == "s"){ //if argument `s` do this
                 runCmd(`gamemode s "${playerName}"`,"overworld");
             }else if(arg[0] == "c"){ //if argument `c` do this
