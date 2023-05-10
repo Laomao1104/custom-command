@@ -7,7 +7,7 @@ const prefix = '-c'
 //your custom commands go here
 function yourCommand(command,arg,text,player){
     const playerName = player.name ?? player.nameTag; //get player name
-    //texttextexttetexttextextt = is the whole massage
+    //member = 看看成员的ID
     //player = is the player
     //playerName = is player name
     //args = is the word you put after prefix and command
@@ -18,7 +18,7 @@ function yourCommand(command,arg,text,player){
             runCmdEntity(tellraw @s { "rawtext": [ { "text": "member ${playerName}" } ] }`,player;
             break;
             
-        case 'gamemode': //if i type "-c gm" check argument
+        case 'gamemode': //if i type "-c gamemode" check argument
             if(arg[0] == "s"){ //if argument `s` do this
                 runCmd(`gamemode s "${playerName}"`,"overworld");
             }else if(arg[0] == "c"){ //if argument `c` do this
@@ -41,17 +41,10 @@ function yourCommand(command,arg,text,player){
                 runCmd(`say you are in water`,"overworld");
             }
             break;
-            
-        case `give`:
-            if(haveTag(player,"op")){
-                runCmd(`give "${playerName}" ${arg[0]} ${arg[1]}`,"overworld");
-            }else{
-                runCmd(`say you don't have op ${playerName}`,"overworld");
-            }
-            break;
+
             
         default: //if no command match do this
-            runCmdEntity(`tellraw @s { "rawtext": [ { "text": "§cunknown command, no command with name ${command}" } ] }`,player);
+            runCmdEntity(`tellraw @s { "rawtext": [ { "text": "§c无知的命令${command}" } ] }`,player);
     }
 }
 
